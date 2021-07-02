@@ -26,26 +26,44 @@ namespace MyHangman_Moto
             {
                 guessedWord[i] = '_';
             }
-            Console.Clear();
-            Console.WriteLine(guessedWord);
 
-            Console.WriteLine("Start typing letters to guess the secret word. Good luck!");
-
-            letter = Console.ReadLine()[0];
-
-            Console.WriteLine("Your letter: " + letter);
-
-            for (int i = 0; i < secretWord.Length; i++)
+            while (true)
             {
-                if (letter == secretWord[i]) 
+
+                Console.Clear();
+                Console.WriteLine(guessedWord);
+
+                Console.WriteLine("Start typing letters and hit 'enter' to guess the secret word. Good luck!");
+
+                letter = Console.ReadLine()[0];
+
+                Console.WriteLine("Your letter: " + letter);
+
+                for (int i = 0; i < secretWord.Length; i++)
                 {
-                    guessedWord[i] = letter;
+                    if (letter == secretWord[i])
+                    {
+                        guessedWord[i] = letter;
+                    }
+                }
+                bool isEnd = true;
+                    for (int i = 0; i < secretWord.Length; i++)
+                {
+                    if (guessedWord[i] == '_')
+                    {
+                        isEnd = false;
+                        break;
+                    }
+                }
+                    if (isEnd)
+                {
+                    break;
+                    //break from while loop
+                    
                 }
             }
-
             Console.Clear();
-            Console.WriteLine(guessedWord);
-
+            Console.WriteLine("Congratulations, you finally guessed the secret word! The secret word was: " + secretWord);
 
         }
     }
