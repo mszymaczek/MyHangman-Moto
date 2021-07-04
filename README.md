@@ -1,4 +1,4 @@
-Programming has recently become my hobby and main free time interest as it has been growing on me for last several months. I have started some courses on Frontend (HTML, CSS and JS) recently but applying for Codecademy I paused that path and started learning C#. I found programming a pleasing and fulfilling activity, especially when code, made from scratch, starts to work. Coding also stimulates my creativity and I find it quite satisfying. 
+Programming has recently become my hobby and main free time interest as it has been growing on me for last several months. I have started some courses on Frontend (HTML, CSS and JS) recently but applying for Motorola Academy I paused that path and started learning C#. I found programming a pleasing and fulfilling activity, especially when code, made from scratch, starts to work. Coding also stimulates my creativity and I find it quite satisfying. 
 
 As late Steve Jobs once said: “The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.” I think programming might be 'the thing' in my case...
 
